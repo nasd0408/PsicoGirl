@@ -13,13 +13,13 @@ const ImageTextCard = ({ payload }) => {
                     
                 </div>
                 {payload.buttons ? <div className="social-buttons">
-                        <a className="btn-social" href="https://whatsapp.me" targer="__blank">
+                        <a className="btn-social" href="https://www.instagram.com/soypsicogirl/" targer="__blank">
                             <i className="fa fa-instagram " ></i></a>
-                        <a className="btn-social" href="https://whatsapp.me" targer="__blank">
+                        <a className="btn-social" href="https://whatsapp.me/584145202196" targer="__blank">
                             <i className="fa fa-whatsapp " ></i></a>
-                        <a className="btn-social" href="https://facebook.me" targer="__blank">
+                        <a className="btn-social" href="https://facebook.com" targer="__blank">
                             <i className="fa fa-facebook " ></i></a>
-                        <a className="btn-social" href="https://twitter.me" targer="__blank">
+                        <a className="btn-social" href="https://twitter.com" targer="__blank">
                             <i className="fa fa-twitter " ></i></a>
                     </div>
                         : <p className="social-buttons">{payload.extra}</p>}
