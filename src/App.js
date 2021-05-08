@@ -29,37 +29,37 @@ function App() {
             </li>
             <li className="nav-item">
               <Link to="/" className="nav-link">
-                <i class="fa fa-home fa-3x" aria-hidden="true"></i>
+                <i className="fa fa-home fa-3x" aria-hidden="true"></i>
                 <span className="link-text">Inicio</span>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/consejos"  className="nav-link">
-                <i class="fa fa-heart fa-3x" aria-hidden="true"></i>
+                <i className="fa fa-heart fa-3x" aria-hidden="true"></i>
                 <span className="link-text">Consejos</span>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/info"  className="nav-link">
-                <i class="fa fa-exclamation fa-3x" aria-hidden="true"></i>
+                <i className="fa fa-exclamation fa-3x" aria-hidden="true"></i>
                 <span className="link-text">Informate</span>
               </Link>
             </li>
             <li className="nav-item" >
               <Link to="/galeria"  className="nav-link">
-                <i class="fa fa-camera-retro fa-3x" aria-hidden="true"></i>
+                <i className="fa fa-camera-retro fa-3x" aria-hidden="true"></i>
                 <span className="link-text">Galeria</span>
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/"  className="nav-link">
-                <i class="fa fa-comments fa-3x" aria-hidden="true"></i>
+                <i className="fa fa-comments fa-3x" aria-hidden="true"></i>
                 <span className="link-text">Testimonios</span>
               </Link>
             </li>
             <li className="nav-item" >
               <Link to="/"  className="nav-link">
-                <i class="fa fa-address-card-o fa-3x" aria-hidden="true"></i>
+                <i className="fa fa-address-card-o fa-3x" aria-hidden="true"></i>
                 <span className="link-text">Contacto</span>
               </Link>
             </li>

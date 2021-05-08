@@ -345,9 +345,12 @@ iframe{
 } 
 @media only screen and (max-width:600px) {
   .inicio,
-  .consejos
+  .consejos,
+  .info,
+  .galeria
   {
     margin: 0px;
+    padding: 0px;
   }
   .inicio{
     grid-template-columns: 1fr;
@@ -371,8 +374,14 @@ iframe{
   iframe{
     width: 100%;
   }
-  .header-right p,
-  .header-right a{
+  header{
+    margin: 0;
+    padding: 0;
+  }
+  header img{
+    object-fit: cover;
+  }
+  .header-right{
     display: none;
     
   }
@@ -414,5 +423,9 @@ iframe{
   }
   .nav-link:hover{
     background-color: var(--pink-primary);
+  }
+  .card-img{
+    overflow: hidden;
+    max-width: 100%;
   }
 }

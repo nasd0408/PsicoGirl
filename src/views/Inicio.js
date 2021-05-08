@@ -37,7 +37,7 @@ const Inicio = () => {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13213.853553765239!2d-69.36914456911838!3d10.057876335155283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb35e9567cb3cff5!2sC.C%20Sotavento!5e0!3m2!1ses!2sve!4v1620264520898!5m2!1ses!2sve"
                  width="600" 
                  height="300" 
-                 allowfullscreen="" 
+                 allowFullScreen="" 
                  title="Sotavento"
                  loading="lazy"/>
             </div>
