@@ -38,7 +38,8 @@ const Inicio = () => {
                  width="600" 
                  height="300" 
                  allowfullscreen="" 
-                 loading="lazy"></iframe>
+                 title="Sotavento"
+                 loading="lazy"/>
             </div>
         </div>
     )
